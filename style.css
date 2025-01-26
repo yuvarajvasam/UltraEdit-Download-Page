@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+/* Header */
+
+.header{
+    width: 100%;
+    height: 12vh;
+    justify-content: center;
+    align-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-container{
+    display: flex;
+    justify-content: center;
+
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li{
+    display: flex;
+}
+
+
+/* Main Content */
+
+section{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.download-heading{
+    text-align: center;
+    margin-top: 70px;
+}
+.download-heading h1{
+    font-size: 3rem;
+    font-weight: 450;
+    margin-right: 25px;
+}
+.download-heading h1{
+    display: inline;
+}
+.download-heading h1 span{
+    font-weight: 700;
+}
+
+.download-content{
+    text-align: center;
+    margin-top: 45px;
+}
+
+.download-content h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.download-button{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 16px;
+    background-color: #00B6D1;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-style: none ;
+}
+
+.download-menu{
+    display: flex;
+    margin:18%;
+}
+.download-menu-container{
+    margin-top: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+}
+
+.download-menu-content h3{
+    padding-top:10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.download-menu-content h3 small{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.download-container{
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: start;
+    gap: 30px;
+}
+
+.download-card{
+    text-align: center;
+    border-radius: 5px;
+    background-color:#F9F9F9;
+    padding:16px;
+    width: 350px;
+
+}
+
+.download-card h1{
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.download-card button{
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #5CB85B;
+    padding:12px
+}
+.download-card p{
+    margin-top:5px
+}
+.hash{
+    font-size: 10px;
+    margin: 10px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 1145px) {
+    .grid{ 
+        grid-template-columns: 1fr 1fr; 
+    }
+}
+@media screen and (max-width: 700px) {
+    .grid{ 
+        grid-template-columns: 1fr; 
+    }
+}
